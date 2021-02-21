@@ -13,5 +13,37 @@
     font-family: 'Inter';
 }
 * {
-    border: 1px solid red;
+    border: 1px solid rgb(255, 0, 255);
+    box-sizing: border-box;
+}
+
+/* 1280 */
+@media screen and (max-width: 1280px) {
+    * {
+        border: 1px solid rgb(2, 143, 44);
+        box-sizing: border-box;
+    }
+}
+
+/* 1024 */
+@media screen and (max-width: 1024px) {
+    * {
+        border: 1px solid red;
+        box-sizing: border-box;
+    }
+}
+/* 768 */
+@media screen and (max-width: 768px) {
+    * {
+        border: 1px solid rgb(94, 255, 0);
+        box-sizing: border-box;
+    }
+
+}
+/* 320 */
+@media screen and (max-width: 320px) {
+    * {
+        border: 1px solid rgb(0, 174, 255);
+        box-sizing: border-box;
+    }
 }

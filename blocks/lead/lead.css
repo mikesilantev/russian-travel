@@ -1,0 +1,7 @@
+.lead {
+    margin: auto;
+    display: grid;
+    max-width: 984px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 4fr;
+}
