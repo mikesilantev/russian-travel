@@ -1,1 +1,7 @@
-bac
+.header{
+    margin: auto;
+    padding: 26px 0 0;/* по брифу 28px */
+    max-width: 1184px;
+    display: flex;
+    flex-direction: row;
+}
