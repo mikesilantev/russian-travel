@@ -7,19 +7,7 @@
     text-align: center;
     color: #fff;
     justify-self: center;
-    padding: 56px 0 0;
 }
-
-/* 1024 */
-@media screen and (max-width: 1024px) {
-    .lead__title {
-    padding: 48px 0 0;
-    }
-}
-
-
-
-
 /* 320 */
 @media screen and (max-width: 320px) {
     .lead__title {

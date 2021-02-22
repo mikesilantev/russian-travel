@@ -1,27 +1,25 @@
 .lead__image {
     justify-self: center;
+    width: 100%;
     object-fit: cover;
     padding-top: 64px; 
-    width: 100%;
     /* padding: 0 148px; */
     /* max-width: 984px;
     width: 100%; */
 }
-/* 1024 */
-@media screen and (max-width: 1280px) {
-    .lead__image {
-        max-width: calc(1280px - 148px*2);
-    }
-}
+
 /* 1024 */
 @media screen and (max-width: 1024px) {
     .lead__image {
-        max-width: calc(100% - )
+        max-width: calc(100% - 48px*2);    
+        padding-top: 56px;  
     }
 }
 /* 320 */
 @media screen and (max-width: 320px) {
     .lead__image {
+        /* width: 100%; */
+     padding-top: 40px;  
     }
 }
 
