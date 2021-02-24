@@ -1,0 +1,13 @@
+.cover__overlay {
+    background-color: #2A2C2F;
+    display: block;
+    grid-column: 1/2;
+    grid-row: 1/3;
+    z-index: -1;
+    opacity: .3;
+    transition: .5s linear;
+}
+.cover:hover .cover__overlay{
+    opacity: .8;
+    transition: .5s linear;
+}
