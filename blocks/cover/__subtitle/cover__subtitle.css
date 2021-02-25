@@ -9,5 +9,13 @@
     color: #fff;
     grid-column: 1/2;
     grid-row: 2/3;
+    }
 
+    @media screen and (max-width: 320px) {
+        .cover__subtitle {
+            margin: 16px 0 0;
+            font-size: 14px;
+            line-height: 16px;
+            max-width: 288px;
+        }
     }

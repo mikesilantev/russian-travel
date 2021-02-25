@@ -6,7 +6,9 @@
     z-index: -1;
     opacity: .3;
     transition: .5s linear;
+    
 }
+
 .cover:hover .cover__overlay{
     opacity: .8;
     transition: .5s linear;

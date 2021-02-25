@@ -5,3 +5,10 @@
     color: #fff;
     justify-self: end;
 }
+
+@media screen and (max-width:320px){
+    .footer__copyright{
+        justify-self: start;
+        margin: 48px 0 0;
+    }
+}

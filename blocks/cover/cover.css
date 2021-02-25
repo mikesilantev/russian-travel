@@ -3,5 +3,13 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
+    
 }
-
+@media screen and (max-width: 1024px){
+    .cover {
+        
+    }
+}
+.cover:hover {
+    cursor: pointer;
+}

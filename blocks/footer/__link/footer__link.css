@@ -5,8 +5,17 @@
     color: #fff;
     margin: 0 18px 0 0;
     text-decoration: none;
-
 }
+
 .footer__link:last-child {
     margin: 0;
+}
+@media screen and (max-width: 320px) {
+    .footer__link {
+        display: flex;
+        flex-direction: column;
+        font-size: 24px;
+        line-height: 24px;
+        margin: 0 0 35px;
+    }
 }

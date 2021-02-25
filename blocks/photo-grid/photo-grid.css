@@ -5,3 +5,25 @@
     gap: 16px;
     justify-content: center
 }
+
+@media screen and (max-width: 1024px) {
+    .photo-grid {
+        grid-template-columns: repeat(auto-fill, 300px);
+        gap: 14px; 
+    }
+
+}
+@media screen and (max-width: 768px) {
+    .photo-grid {
+        grid-template-columns: repeat(auto-fill, 354px);
+        gap: 16px; 
+    }
+
+}
+@media screen and (max-width: 320px) {
+    .photo-grid {
+        grid-template-columns: repeat(auto-fill, 288px);
+        gap: 12px; 
+    }
+
+}

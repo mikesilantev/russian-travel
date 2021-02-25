@@ -1,5 +1,18 @@
 .footer {
-    margin: 92px 0 0;
+    margin: 92px 42px 0;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+}
+@media screen and (max-width: 768px) {
+    .footer{
+        margin: 90px 24px 0;
+        grid-template-columns: max-content 1fr;
+    }
+}
+@media screen and (max-width: 320px) {
+    .footer{
+        margin: 64px 16px 0;
+        grid-template-columns: 1fr;
+        grid-template-rows: max-content 1fr;
+    }
 }
