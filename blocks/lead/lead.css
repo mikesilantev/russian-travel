@@ -1,0 +1,17 @@
+.lead {
+    margin: 56px auto 0;
+    max-width: 984px;
+    display: flex;
+    flex-direction: column;
+}
+@media screen and (max-width: 1024px) {
+    .lead {
+        max-width: 928px;
+        margin-top: 48px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .lead {
+        max-width: 100%;
+    }
+}
