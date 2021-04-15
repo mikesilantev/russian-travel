@@ -1,0 +1,9 @@
+* {
+    border: 1px solid rgb(255, 0, 0);
+}
+.root {
+    background: #2A2C2F;
+    max-width: 1280px;
+    margin: 0 auto;
+    font-family: 'inter-regular', 'Arial', 'Helvetica', sans-serif;
+}
