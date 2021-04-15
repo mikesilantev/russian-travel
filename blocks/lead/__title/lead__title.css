@@ -8,8 +8,14 @@
     text-align: center;
     color:#fff;
 }
- 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 719px) {
+    .lead__title {
+        font-size: 60px;
+        line-height: 60px;
+    }
+}
+
+@media screen and (max-width: 450px) {
     .lead__title {
         font-size: 40px;
         line-height: 44px;
