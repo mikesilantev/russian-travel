@@ -1,5 +1,5 @@
 .cover { 
-    max-width: 1184px;
+    max-width: calc(100% - 48px *2);
     margin: 92px auto 0;
     display: grid;
     grid-template-columns: 1fr;
