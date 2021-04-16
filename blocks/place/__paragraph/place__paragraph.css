@@ -4,6 +4,9 @@
     line-height: 163%;
     color: #FFFFFF;
 }
+.place__paragraph:last-child {
+    margin-bottom: 0;
+}
 @media screen and (max-width: 768px) {
     .place__paragraph {
         margin: 0 0 25px;

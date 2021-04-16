@@ -29,5 +29,7 @@
         "img"
         "paragraph";
         gap: 32px;
+        margin-bottom: 50px;
     }
+
 } 
