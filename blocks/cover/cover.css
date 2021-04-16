@@ -1,12 +1,23 @@
 .cover { 
     max-width: calc(100% - 48px *2);
     margin: 92px auto 0;
+    display: -ms-grid;
     display: grid;
+    -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
+    -ms-grid-rows: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+}.cover > *:nth-child(1) { 
+    -ms-grid-row: 1; 
+    -ms-grid-column: 1;
+}.cover > *:nth-child(2) { 
+    -ms-grid-row: 2; 
+    -ms-grid-column: 1;
 }
 .cover:hover .cover__overlay {
         opacity: 0.8;
+        -webkit-transition: .3s linear;
+        -o-transition: .3s linear;
         transition: .3s linear;
     }
 

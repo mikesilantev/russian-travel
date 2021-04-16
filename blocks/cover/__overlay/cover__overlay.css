@@ -1,9 +1,15 @@
 .cover__overlay {
     display: block;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
     grid-column: 1/2;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
     grid-row: 1/3;
     background: #2A2C2F;
     opacity: 0.3;
     cursor: pointer;
+    -webkit-transition: .3s linear;
+    -o-transition: .3s linear;
     transition: .3s linear;
 }

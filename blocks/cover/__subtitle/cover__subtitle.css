@@ -5,9 +5,14 @@
     line-height: 22px;
     text-align: center;
     color: #FFFFFF;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
     grid-column: 1/2;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
     grid-row: 2/3;
-    justify-self: center;
+    -ms-grid-column-align: center;
+        justify-self: center;
     align-self: flex-start;
     z-index: 1;
 }

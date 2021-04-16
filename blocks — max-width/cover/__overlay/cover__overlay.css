@@ -1,9 +1,0 @@
-.cover__overlay {
-    display: block;
-    grid-column: 1/2;
-    grid-row: 1/3;
-    background: #2A2C2F;
-    opacity: 0.3;
-    cursor: pointer;
-    transition: .3s linear;
-}
