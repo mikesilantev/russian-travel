@@ -1,7 +1,15 @@
 .cover { 
     max-width: 1184px;
     margin: 92px auto 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
 }
+.cover:hover .cover__overlay {
+        opacity: 0.8;
+        transition: .3s linear;
+    }
+
 @media screen and (max-width: 1024px) {
     .cover { 
         max-width: 100%;
