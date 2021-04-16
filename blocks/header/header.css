@@ -3,6 +3,29 @@
     justify-content: space-between;
     align-items: center;
     height: 52px;
+    margin: 28px auto 0;
+    max-width: calc(100% - 2*48px);
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        max-width: calc(100% - 2*24px);
+    }
+}
+@media screen and (max-width: 320px) {
+    .header {
+        max-width: calc(100% - 2*16px);
+        margin-top: 16px;
+    }
+}
+
+
+
+/* .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 52px;
     margin: 28px 48px 0;
 }
 
@@ -15,4 +38,4 @@
     .header {
         margin: 16px 16px 0;
     }
-}
+} */
