@@ -1,25 +1,39 @@
 @font-face {
-  font-family: 'inter-regular';
+  font-family: 'Inter';
   src: url('inter-regular-webfont.eot');
   src: url('inter-regular-webfont.eot?#iefix') format('embedded-opentype'),
        url('inter-regular-webfont.woff2') format('woff2'),
        url('inter-regular-webfont.woff') format('woff'),
        url('inter-regular-webfont.ttf') format('truetype');
-  font-weight: normal;
+  font-weight: 400;
   font-style: normal;
+  font-display: swap;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
 }
 @font-face {
-  font-family: 'inter-black';
+  font-family: 'Inter';
+  src: url('inter-Bold.eot');
+  src: url('inter-Bold.eot?#iefix') format('embedded-opentype'),
+      url('inter-Bold.woff2') format('woff2'),
+      url('inter-Bold.woff') format('woff'),
+      url('inter-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+@font-face {
+  font-family: 'Inter';
   src: url('inter-black-webfont.eot');
   src: url('inter-black-webfont.eot?#iefix') format('embedded-opentype'),
        url('inter-black-webfont.woff2') format('woff2'),
        url('inter-black-webfont.woff') format('woff'),
        url('inter-black-webfont.ttf') format('truetype');
-  font-weight: normal;
+  font-weight: 900;
   font-style: normal;
+  font-display: swap;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
