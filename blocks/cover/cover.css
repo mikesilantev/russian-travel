@@ -7,11 +7,11 @@
     grid-template-columns: 1fr;
     -ms-grid-rows: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-}.cover > *:nth-child(1) { 
-    -ms-grid-row: 1; 
+}.cover > *:nth-child(1) {
+    -ms-grid-row: 1;
     -ms-grid-column: 1;
-}.cover > *:nth-child(2) { 
-    -ms-grid-row: 2; 
+}.cover > *:nth-child(2) {
+    -ms-grid-row: 2;
     -ms-grid-column: 1;
 }
 .cover:hover .cover__overlay {
