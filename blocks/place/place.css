@@ -1,7 +1,7 @@
 .place {
     display: -ms-grid;
     display: grid;
-        grid-template-areas: 
+    grid-template-areas: 
     "header website"
     "img paragraph";
     gap: 48px 40px;
@@ -25,10 +25,10 @@
 @media screen and (min-width: 320px) and (max-width: 670px) {
     .place {
             grid-template-areas: 
-        "header"
-        "website"
-        "img"
-        "paragraph";
+            "header"
+            "website"
+            "img"
+            "paragraph";
         gap: 32px;
         margin-bottom: 50px;
     }

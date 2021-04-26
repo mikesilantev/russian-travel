@@ -6,15 +6,15 @@
     color: #FFFFFF;
     max-width: 560px;
     margin: 0;
-    -ms-grid-column: 1;
-    -ms-grid-column-span: 1;
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 1;
     grid-column: 1/2;
-    -ms-grid-row: 1;
-    -ms-grid-row-span: 1;
+        -ms-grid-row: 1;
+        -ms-grid-row-span: 1;
     grid-row: 1/2;
-    -ms-grid-column-align: center;
-        justify-self: center;
-    align-self: flex-end;
+        -ms-grid-column-align: center;
+    justify-self: center;
+    align-self: end;
     z-index: 1;
     text-decoration: none;
 }
