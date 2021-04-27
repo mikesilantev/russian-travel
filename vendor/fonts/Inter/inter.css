@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'Inter';
-  src: url('inter-regular-webfont.eot');
-  src: url('inter-regular-webfont.eot?#iefix') format('embedded-opentype'),
+  src: url('inter-regular-webfont.eot'),
+       url('inter-regular-webfont.eot?#iefix') format('embedded-opentype'),
        url('inter-regular-webfont.woff2') format('woff2'),
        url('inter-regular-webfont.woff') format('woff'),
        url('inter-regular-webfont.ttf') format('truetype');
@@ -13,8 +13,8 @@
 }
 @font-face {
   font-family: 'Inter';
-  src: url('inter-Bold.eot');
-  src: url('inter-Bold.eot?#iefix') format('embedded-opentype'),
+  src: url('inter-Bold.eot'),
+      url('inter-Bold.eot?#iefix') format('embedded-opentype'),
       url('inter-Bold.woff2') format('woff2'),
       url('inter-Bold.woff') format('woff'),
       url('inter-Bold.ttf') format('truetype');
@@ -26,8 +26,8 @@
 }
 @font-face {
   font-family: 'Inter';
-  src: url('inter-black-webfont.eot');
-  src: url('inter-black-webfont.eot?#iefix') format('embedded-opentype'),
+  src: url('inter-black-webfont.eot'),
+       url('inter-black-webfont.eot?#iefix') format('embedded-opentype'),
        url('inter-black-webfont.woff2') format('woff2'),
        url('inter-black-webfont.woff') format('woff'),
        url('inter-black-webfont.ttf') format('truetype');

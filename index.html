@@ -22,8 +22,10 @@
     <section class="lead">
         <h1 class="lead__title">Путешествия по России</h1>
         <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-        <img src="./images/lead__image.jpg" alt="Путешествия по России" class="lead__image">
-        <p class="lead__caption">ваша полка — верхняя</p>
+        <figure>
+            <img src="./images/lead__image.jpg" class="lead__image" alt="ваша полка — верхняя">
+            <figcaption class="lead__caption" >ваша полка — верхняя</figcaption>
+        </figure>
     </section>
     <!-- intro -->
     <section class="intro">
@@ -39,15 +41,15 @@
             Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.
         </p>
         <ul class="intro__list">
-            <li>Часовых поясов 11</li>
-            <li>Объектов природного наследия ЮНЕСКО 12</li>
-            <li>Объектов культурного наследия ЮНЕСКО 16</li>
-            <li>Природных заповедников 105</li>
-            <li>Аэропортов 241</li>
+            <li class="intro__list-item">Часовых поясов <span class="intro__list-item intro__list-item_normal">11</span></li>
+            <li class="intro__list-item">Объектов природного наследия ЮНЕСКО <span class="intro__list-item intro__list-item_normal">12</span></li>
+            <li class="intro__list-item">Объектов культурного наследия ЮНЕСКО <span class="intro__list-item intro__list-item_normal">16</span></li>
+            <li class="intro__list-item">Природных заповедников <span class="intro__list-item intro__list-item_normal">105</span></li>
+            <li class="intro__list-item">Аэропортов <span class="intro__list-item intro__list-item_normal">241</span></li>
         </ul>
     </section>
     <!-- photo-grid -->
-    <div class="photo-grid">
+    <section class="photo-grid">
         <img src="./images/photo-grid__item1.png" alt="Из окна" class="photo-grid__item">
         <img src="./images/photo-grid__item2.png" alt="Горы" class="photo-grid__item">
         <img src="./images/photo-grid__item3.png" alt="Пёсель" class="photo-grid__item">
@@ -60,9 +62,9 @@
         <img src="./images/photo-grid__item10.png" alt="Опять горы" class="photo-grid__item">
         <img src="./images/photo-grid__item11.png" alt="Горы, море" class="photo-grid__item">
         <img src="./images/photo-grid__item12.png" alt="Горы и туман" class="photo-grid__item">
-    </div>
+    </section>
     <!-- places -->
-    <div class="places">
+    <section class="places">
         <article class="place">
             <h2 class="place__title">Куршская коса</h2>
             <div class="places__website">
@@ -111,9 +113,7 @@
                     сияние начинает сбываться с билетом в Мурманск.
                 </p>
             </div>
-
         </article>
-
         <article class="place">
             <h2 class="place__title">Алтай</h2>
             <div class="places__website">
@@ -138,9 +138,7 @@
                     Алтайского края.
                 </p>
             </div>
-
         </article>
-
         <article class="place">
             <h2 class="place__title">Зимний Байкал</h2>
             <div class="places__website">
@@ -163,9 +161,7 @@
                     рекорд — 197.011 км/ч.
                 </p>
             </div>
-
         </article>
-
         <article class="place">
             <h2 class="place__title">Карелия</h2>
             <div class="places__website">
@@ -187,23 +183,14 @@
                 </p>
             </div>
         </article>
-    </div>
+    </section>
     <!-- cover -->
     <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover">
         <h2 class= "cover__title">До Байкала «на собаках»</h2>
         <p class="cover__subtitle">По мотивам учебной темы о Транссибе — 
             путешествие от столицы до Байкала на электричках.</p>
-        <div class="cover__overlay" ></div>
         <img src="./images/cover__background.jpg" alt="До Байкала «на собаках»" class="cover__background">
     </a>
-    <!-- <div class="cover">
-        <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class= "cover__title">
-            До Байкала «на собаках»</a>
-        <p class="cover__subtitle">По мотивам учебной темы о Транссибе — 
-            путешествие от столицы до Байкала на электричках.</p>
-         <div class="cover__overlay" ></div>
-         <img src="./images/cover__background.jpg" alt="До Байкала «на собаках»" class="cover__background">
-    </div> -->
     <!-- footer -->
     <footer class="footer">
         <nav class="footer__links">
