@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Inter';
-  src: url('/inter-regular-webfont.eot'),
+  src: url('/inter-black-webfont.eot'),
        url('/inter-regular-webfont.eot?#iefix') format('embedded-opentype'),
        url('/inter-regular-webfont.woff2') format('woff2'),
        url('/inter-regular-webfont.woff') format('woff'),
@@ -13,7 +13,7 @@
 }
 @font-face {
   font-family: 'Inter';
-  src: url('inter-Bold.eot'),
+  src: url('/inter-Bold.eot'),
       url('/inter-Bold.eot?#iefix') format('embedded-opentype'),
       url('/inter-Bold.woff2') format('woff2'),
       url('/inter-Bold.woff') format('woff'),
