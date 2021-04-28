@@ -17,7 +17,7 @@
         url('/inter-Bold.eot?#iefix') format('embedded-opentype'),
         url('/inter-Bold.woff2') format('woff2'),
         url('/inter-Bold.woff') format('woff'),
-        url('/vendor/fonts/Inter/Inter-Bold.ttf') format('truetype');
+        url('Inter-Bold.ttf') format('truetype');
     font-weight: 700;
     font-style: normal;
     font-display: swap;
@@ -30,7 +30,7 @@
          url('/inter-black-webfont.eot?#iefix') format('embedded-opentype'),
          url('/inter-black-webfont.woff2') format('woff2'),
          url('/inter-black-webfont.woff') format('woff'),
-         url('/vendor/fonts/Inter/Inter-Black.ttf') format('truetype');
+         url('Inter-Black.ttf') format('truetype');
     font-weight: 900;
     font-style: normal;
     font-display: swap;
