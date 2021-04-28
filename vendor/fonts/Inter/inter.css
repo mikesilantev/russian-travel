@@ -13,10 +13,10 @@
   }
   @font-face {
     font-family: 'Inter';
-    src: url('inter-Bold.eot'),
-        url('inter-Bold.eot?#iefix') format('embedded-opentype'),
-        url('inter-Bold.woff2') format('woff2'),
-        url('inter-Bold.woff') format('woff'),
+    src: url('Inter-Bold.eot'),
+        url('Inter-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Inter-Bold.woff2') format('woff2'),
+        url('Inter-Bold.woff') format('woff'),
         url('Inter-Bold.ttf') format('truetype');
     font-weight: 700;
     font-style: normal;
