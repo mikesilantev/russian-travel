@@ -5,6 +5,7 @@
     font-size: 12px;
     line-height: 18px;
     color: #fff;
+    font-weight: 700;
 }
 @media screen and (max-width: 320px) {
     .intro__list {
