@@ -12,7 +12,7 @@
     -ms-grid-row-span: 1;
     grid-row: 2/3;
     -ms-grid-column-align: center;
-        justify-self: center;
+    justify-self: center;
     align-self: flex-start;
     z-index: 1;
 }
