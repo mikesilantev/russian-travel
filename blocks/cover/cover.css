@@ -1,6 +1,6 @@
 .cover {
     max-width: calc(100% - 48px *2);
-    margin: 92px auto 0;  
+    margin: 92px auto 0;
     position: relative;
     cursor: pointer;
 }
